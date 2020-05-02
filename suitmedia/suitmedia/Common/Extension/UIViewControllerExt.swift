@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import MBProgressHUD
 
 enum NavigationBarType {
     case showNavbar
@@ -87,6 +88,18 @@ extension UIViewController {
         }
         
         vc.present(alert, animated: true, completion: nil)
+    }
+    
+    func showHud(_ message: String) {
+        let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
+        hud.label.text = message
+        hud.isUserInteractionEnabled = false
+        self.view.isUserInteractionEnabled = false
+    }
+    
+    func hideHUD() {
+        MBProgressHUD.hide(for: self.view, animated: true)
+        self.view.isUserInteractionEnabled = true
     }
 }
 

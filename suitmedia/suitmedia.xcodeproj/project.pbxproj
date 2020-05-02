@@ -20,6 +20,13 @@
 		5DC26AE5245DCC6E00DC0C7A /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AE4245DCC6E00DC0C7A /* UIViewExt.swift */; };
 		5DC26AE7245DCD0A00DC0C7A /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AE6245DCD0A00DC0C7A /* UIImageViewExt.swift */; };
 		5DC26AE9245DD34100DC0C7A /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AE8245DD34100DC0C7A /* UIViewControllerExt.swift */; };
+		5DC26AEC245DD98B00DC0C7A /* ModelScreenThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AEB245DD98B00DC0C7A /* ModelScreenThree.swift */; };
+		5DC26AF0245DDAF400DC0C7A /* ScreenOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AEE245DDAF400DC0C7A /* ScreenOneController.swift */; };
+		5DC26AF1245DDAF400DC0C7A /* ScreenOneController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC26AEF245DDAF400DC0C7A /* ScreenOneController.xib */; };
+		5DC26AF3245DDB1200DC0C7A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AF2245DDB1200DC0C7A /* BaseViewController.swift */; };
+		5DC26AF6245DDC4A00DC0C7A /* KeyboardCompatibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AF5245DDC4A00DC0C7A /* KeyboardCompatibleViewController.swift */; };
+		5DC26AFA245DDFE600DC0C7A /* ScreenTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AF8245DDFE600DC0C7A /* ScreenTwoController.swift */; };
+		5DC26AFB245DDFE600DC0C7A /* ScreenTwoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC26AF9245DDFE600DC0C7A /* ScreenTwoController.xib */; };
 		779188162F9FACEB5C705AD6 /* Pods_suitmedia_suitmediaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C83C5B2B2D0471285DC196 /* Pods_suitmedia_suitmediaUITests.framework */; };
 		A43CD1C03BF85C5DB0AEC3EF /* Pods_suitmedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D11F4BB20C14807FCDACAA4 /* Pods_suitmedia.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +71,13 @@
 		5DC26AE4245DCC6E00DC0C7A /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		5DC26AE6245DCD0A00DC0C7A /* UIImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
 		5DC26AE8245DD34100DC0C7A /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		5DC26AEB245DD98B00DC0C7A /* ModelScreenThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelScreenThree.swift; sourceTree = "<group>"; };
+		5DC26AEE245DDAF400DC0C7A /* ScreenOneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenOneController.swift; sourceTree = "<group>"; };
+		5DC26AEF245DDAF400DC0C7A /* ScreenOneController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenOneController.xib; sourceTree = "<group>"; };
+		5DC26AF2245DDB1200DC0C7A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5DC26AF5245DDC4A00DC0C7A /* KeyboardCompatibleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardCompatibleViewController.swift; sourceTree = "<group>"; };
+		5DC26AF8245DDFE600DC0C7A /* ScreenTwoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTwoController.swift; sourceTree = "<group>"; };
+		5DC26AF9245DDFE600DC0C7A /* ScreenTwoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenTwoController.xib; sourceTree = "<group>"; };
 		90DEE7357E325D621FCAF682 /* Pods-suitmedia-suitmediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suitmedia-suitmediaUITests.debug.xcconfig"; path = "Target Support Files/Pods-suitmedia-suitmediaUITests/Pods-suitmedia-suitmediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD443485E3E84AD5F9118B20 /* Pods-suitmedia-suitmediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suitmedia-suitmediaUITests.release.xcconfig"; path = "Target Support Files/Pods-suitmedia-suitmediaUITests/Pods-suitmedia-suitmediaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C30385C002698F05CFFF12FD /* Pods-suitmediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suitmediaTests.release.xcconfig"; path = "Target Support Files/Pods-suitmediaTests/Pods-suitmediaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +184,8 @@
 		5DC26AD9245DBE1700DC0C7A /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5DC26AF4245DDC2C00DC0C7A /* Base */,
+				5DC26AEA245DD86D00DC0C7A /* Model */,
 				5DC26AE1245DC8B200DC0C7A /* Helper */,
 				5DC26ADD245DBE4200DC0C7A /* Networking */,
 				5DC26ADC245DBE3C00DC0C7A /* View */,
@@ -181,6 +197,8 @@
 		5DC26ADA245DBE2000DC0C7A /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				5DC26AF7245DDFCE00DC0C7A /* Screen_Two */,
+				5DC26AED245DDAD500DC0C7A /* Screen_One */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -216,6 +234,41 @@
 				5DC26AE2245DC8BF00DC0C7A /* AppConstants.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		5DC26AEA245DD86D00DC0C7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DC26AEB245DD98B00DC0C7A /* ModelScreenThree.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DC26AED245DDAD500DC0C7A /* Screen_One */ = {
+			isa = PBXGroup;
+			children = (
+				5DC26AEE245DDAF400DC0C7A /* ScreenOneController.swift */,
+				5DC26AEF245DDAF400DC0C7A /* ScreenOneController.xib */,
+			);
+			path = Screen_One;
+			sourceTree = "<group>";
+		};
+		5DC26AF4245DDC2C00DC0C7A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5DC26AF2245DDB1200DC0C7A /* BaseViewController.swift */,
+				5DC26AF5245DDC4A00DC0C7A /* KeyboardCompatibleViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5DC26AF7245DDFCE00DC0C7A /* Screen_Two */ = {
+			isa = PBXGroup;
+			children = (
+				5DC26AF8245DDFE600DC0C7A /* ScreenTwoController.swift */,
+				5DC26AF9245DDFE600DC0C7A /* ScreenTwoController.xib */,
+			);
+			path = Screen_Two;
 			sourceTree = "<group>";
 		};
 		E19CB729BABF8B6AF5DFC563 /* Frameworks */ = {
@@ -339,6 +392,8 @@
 			files = (
 				5DC26AB6245DBC7900DC0C7A /* LaunchScreen.storyboard in Resources */,
 				5DC26AB3245DBC7900DC0C7A /* Assets.xcassets in Resources */,
+				5DC26AFB245DDFE600DC0C7A /* ScreenTwoController.xib in Resources */,
+				5DC26AF1245DDAF400DC0C7A /* ScreenOneController.xib in Resources */,
 				5DC26AB1245DBC7300DC0C7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,12 +523,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DC26AAE245DBC7300DC0C7A /* ViewController.swift in Sources */,
+				5DC26AF0245DDAF400DC0C7A /* ScreenOneController.swift in Sources */,
 				5DC26AAA245DBC7300DC0C7A /* AppDelegate.swift in Sources */,
+				5DC26AEC245DD98B00DC0C7A /* ModelScreenThree.swift in Sources */,
 				5DC26AE5245DCC6E00DC0C7A /* UIViewExt.swift in Sources */,
+				5DC26AF3245DDB1200DC0C7A /* BaseViewController.swift in Sources */,
 				5DC26AE0245DC2BE00DC0C7A /* NetworkService.swift in Sources */,
 				5DC26AE7245DCD0A00DC0C7A /* UIImageViewExt.swift in Sources */,
 				5DC26AE9245DD34100DC0C7A /* UIViewControllerExt.swift in Sources */,
 				5DC26AE3245DC8BF00DC0C7A /* AppConstants.swift in Sources */,
+				5DC26AFA245DDFE600DC0C7A /* ScreenTwoController.swift in Sources */,
+				5DC26AF6245DDC4A00DC0C7A /* KeyboardCompatibleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
