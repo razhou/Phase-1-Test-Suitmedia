@@ -25,7 +25,7 @@ class ScreenThreeController: BaseViewController,ThreeTableDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.setNavigationBarType(.hideBackButton(title: "EVENT"))
+        self.setNavigationBarType(.hideBackButton(title: "EVENTS"))
     }
     
     func setInitView() {

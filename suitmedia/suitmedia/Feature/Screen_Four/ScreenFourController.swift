@@ -32,7 +32,7 @@ class ScreenFourController: BaseViewController, FourViewModelDelegate,FourCollec
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.setNavigationBarType(.hideBackButton(title: "GUEST"))
+        self.setNavigationBarType(.hideBackButton(title: "GUESTS"))
     }
     
     private func setInitView(){
