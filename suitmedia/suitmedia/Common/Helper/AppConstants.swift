@@ -16,3 +16,15 @@ static let baseUrl       : String = "https://reqres.in/api/"
 enum Api:String {
 case user = "users"
 }
+
+enum NotificationName:String{
+case three = "three"
+case four = "four"
+}
+
+enum Keys: String {
+    case three = "three"
+    case four = "four"
+   
+}
+

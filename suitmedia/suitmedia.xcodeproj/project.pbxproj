@@ -27,6 +27,24 @@
 		5DC26AF6245DDC4A00DC0C7A /* KeyboardCompatibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AF5245DDC4A00DC0C7A /* KeyboardCompatibleViewController.swift */; };
 		5DC26AFA245DDFE600DC0C7A /* ScreenTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AF8245DDFE600DC0C7A /* ScreenTwoController.swift */; };
 		5DC26AFB245DDFE600DC0C7A /* ScreenTwoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC26AF9245DDFE600DC0C7A /* ScreenTwoController.xib */; };
+		5DC26B00245DE4E300DC0C7A /* ScreenThreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AFE245DE4E300DC0C7A /* ScreenThreeController.swift */; };
+		5DC26B01245DE4E300DC0C7A /* ScreenThreeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC26AFF245DE4E300DC0C7A /* ScreenThreeController.xib */; };
+		5DC26B06245DE58E00DC0C7A /* ThreeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26B04245DE58E00DC0C7A /* ThreeCell.swift */; };
+		5DC26B07245DE58E00DC0C7A /* ThreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC26B05245DE58E00DC0C7A /* ThreeCell.xib */; };
+		5DC26B09245DE7C400DC0C7A /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26B08245DE7C400DC0C7A /* TableViewAdapter.swift */; };
+		5DC26B0B245DE96000DC0C7A /* NsObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26B0A245DE96000DC0C7A /* NsObjectExtension.swift */; };
+		5DC26B0E245DEBA900DC0C7A /* ModelScreenFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26B0D245DEBA900DC0C7A /* ModelScreenFour.swift */; };
+		5DC26B11245DECAB00DC0C7A /* ScreenFourController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26B0F245DECAB00DC0C7A /* ScreenFourController.swift */; };
+		5DC26B12245DECAB00DC0C7A /* ScreenFourController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC26B10245DECAB00DC0C7A /* ScreenFourController.xib */; };
+		5DC26B19245DED0A00DC0C7A /* FourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26B17245DED0A00DC0C7A /* FourCell.swift */; };
+		5DC26B1A245DED0A00DC0C7A /* FourCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC26B18245DED0A00DC0C7A /* FourCell.xib */; };
+		5DC26B1C245DEDDB00DC0C7A /* FourCollectionViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26B1B245DEDDB00DC0C7A /* FourCollectionViewAdapter.swift */; };
+		5DC26B1F245DEFF000DC0C7A /* FourViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26B1E245DEFF000DC0C7A /* FourViewModel.swift */; };
+		5DC26B21245DF01A00DC0C7A /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26B20245DF01A00DC0C7A /* ApiError.swift */; };
+		5DC26B23245DF38400DC0C7A /* UITableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26B22245DF38400DC0C7A /* UITableViewExt.swift */; };
+		5DC26B25245DF39400DC0C7A /* UICollectionViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26B24245DF39400DC0C7A /* UICollectionViewExt.swift */; };
+		5DC26B27245E037500DC0C7A /* Prefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26B26245E037500DC0C7A /* Prefs.swift */; };
+		5DC26B29245E049200DC0C7A /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26B28245E049200DC0C7A /* StringExt.swift */; };
 		779188162F9FACEB5C705AD6 /* Pods_suitmedia_suitmediaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C83C5B2B2D0471285DC196 /* Pods_suitmedia_suitmediaUITests.framework */; };
 		A43CD1C03BF85C5DB0AEC3EF /* Pods_suitmedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D11F4BB20C14807FCDACAA4 /* Pods_suitmedia.framework */; };
 /* End PBXBuildFile section */
@@ -78,6 +96,24 @@
 		5DC26AF5245DDC4A00DC0C7A /* KeyboardCompatibleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardCompatibleViewController.swift; sourceTree = "<group>"; };
 		5DC26AF8245DDFE600DC0C7A /* ScreenTwoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTwoController.swift; sourceTree = "<group>"; };
 		5DC26AF9245DDFE600DC0C7A /* ScreenTwoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenTwoController.xib; sourceTree = "<group>"; };
+		5DC26AFE245DE4E300DC0C7A /* ScreenThreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenThreeController.swift; sourceTree = "<group>"; };
+		5DC26AFF245DE4E300DC0C7A /* ScreenThreeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenThreeController.xib; sourceTree = "<group>"; };
+		5DC26B04245DE58E00DC0C7A /* ThreeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeCell.swift; sourceTree = "<group>"; };
+		5DC26B05245DE58E00DC0C7A /* ThreeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeCell.xib; sourceTree = "<group>"; };
+		5DC26B08245DE7C400DC0C7A /* TableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapter.swift; sourceTree = "<group>"; };
+		5DC26B0A245DE96000DC0C7A /* NsObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NsObjectExtension.swift; sourceTree = "<group>"; };
+		5DC26B0D245DEBA900DC0C7A /* ModelScreenFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelScreenFour.swift; sourceTree = "<group>"; };
+		5DC26B0F245DECAB00DC0C7A /* ScreenFourController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFourController.swift; sourceTree = "<group>"; };
+		5DC26B10245DECAB00DC0C7A /* ScreenFourController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenFourController.xib; sourceTree = "<group>"; };
+		5DC26B17245DED0A00DC0C7A /* FourCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCell.swift; sourceTree = "<group>"; };
+		5DC26B18245DED0A00DC0C7A /* FourCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourCell.xib; sourceTree = "<group>"; };
+		5DC26B1B245DEDDB00DC0C7A /* FourCollectionViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCollectionViewAdapter.swift; sourceTree = "<group>"; };
+		5DC26B1E245DEFF000DC0C7A /* FourViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewModel.swift; sourceTree = "<group>"; };
+		5DC26B20245DF01A00DC0C7A /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		5DC26B22245DF38400DC0C7A /* UITableViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExt.swift; sourceTree = "<group>"; };
+		5DC26B24245DF39400DC0C7A /* UICollectionViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExt.swift; sourceTree = "<group>"; };
+		5DC26B26245E037500DC0C7A /* Prefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefs.swift; sourceTree = "<group>"; };
+		5DC26B28245E049200DC0C7A /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		90DEE7357E325D621FCAF682 /* Pods-suitmedia-suitmediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suitmedia-suitmediaUITests.debug.xcconfig"; path = "Target Support Files/Pods-suitmedia-suitmediaUITests/Pods-suitmedia-suitmediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD443485E3E84AD5F9118B20 /* Pods-suitmedia-suitmediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suitmedia-suitmediaUITests.release.xcconfig"; path = "Target Support Files/Pods-suitmedia-suitmediaUITests/Pods-suitmedia-suitmediaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C30385C002698F05CFFF12FD /* Pods-suitmediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suitmediaTests.release.xcconfig"; path = "Target Support Files/Pods-suitmediaTests/Pods-suitmediaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -197,6 +233,8 @@
 		5DC26ADA245DBE2000DC0C7A /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				5DC26AFD245DE47600DC0C7A /* Screen_Four */,
+				5DC26AFC245DE45C00DC0C7A /* Screen_Three */,
 				5DC26AF7245DDFCE00DC0C7A /* Screen_Two */,
 				5DC26AED245DDAD500DC0C7A /* Screen_One */,
 			);
@@ -209,6 +247,10 @@
 				5DC26AE4245DCC6E00DC0C7A /* UIViewExt.swift */,
 				5DC26AE6245DCD0A00DC0C7A /* UIImageViewExt.swift */,
 				5DC26AE8245DD34100DC0C7A /* UIViewControllerExt.swift */,
+				5DC26B0A245DE96000DC0C7A /* NsObjectExtension.swift */,
+				5DC26B22245DF38400DC0C7A /* UITableViewExt.swift */,
+				5DC26B24245DF39400DC0C7A /* UICollectionViewExt.swift */,
+				5DC26B28245E049200DC0C7A /* StringExt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -224,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				5DC26ADF245DC2BE00DC0C7A /* NetworkService.swift */,
+				5DC26B20245DF01A00DC0C7A /* ApiError.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -232,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				5DC26AE2245DC8BF00DC0C7A /* AppConstants.swift */,
+				5DC26B26245E037500DC0C7A /* Prefs.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -239,6 +283,7 @@
 		5DC26AEA245DD86D00DC0C7A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5DC26B0C245DEB9100DC0C7A /* Screen_Four */,
 				5DC26AEB245DD98B00DC0C7A /* ModelScreenThree.swift */,
 			);
 			path = Model;
@@ -269,6 +314,79 @@
 				5DC26AF9245DDFE600DC0C7A /* ScreenTwoController.xib */,
 			);
 			path = Screen_Two;
+			sourceTree = "<group>";
+		};
+		5DC26AFC245DE45C00DC0C7A /* Screen_Three */ = {
+			isa = PBXGroup;
+			children = (
+				5DC26B02245DE55500DC0C7A /* TableViewAdapter */,
+				5DC26AFE245DE4E300DC0C7A /* ScreenThreeController.swift */,
+				5DC26AFF245DE4E300DC0C7A /* ScreenThreeController.xib */,
+			);
+			path = Screen_Three;
+			sourceTree = "<group>";
+		};
+		5DC26AFD245DE47600DC0C7A /* Screen_Four */ = {
+			isa = PBXGroup;
+			children = (
+				5DC26B1D245DEFD800DC0C7A /* ViewModel */,
+				5DC26B13245DECD100DC0C7A /* CollectionViewAdapter */,
+				5DC26B0F245DECAB00DC0C7A /* ScreenFourController.swift */,
+				5DC26B10245DECAB00DC0C7A /* ScreenFourController.xib */,
+			);
+			path = Screen_Four;
+			sourceTree = "<group>";
+		};
+		5DC26B02245DE55500DC0C7A /* TableViewAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				5DC26B03245DE55E00DC0C7A /* cell */,
+				5DC26B08245DE7C400DC0C7A /* TableViewAdapter.swift */,
+			);
+			path = TableViewAdapter;
+			sourceTree = "<group>";
+		};
+		5DC26B03245DE55E00DC0C7A /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				5DC26B04245DE58E00DC0C7A /* ThreeCell.swift */,
+				5DC26B05245DE58E00DC0C7A /* ThreeCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		5DC26B0C245DEB9100DC0C7A /* Screen_Four */ = {
+			isa = PBXGroup;
+			children = (
+				5DC26B0D245DEBA900DC0C7A /* ModelScreenFour.swift */,
+			);
+			path = Screen_Four;
+			sourceTree = "<group>";
+		};
+		5DC26B13245DECD100DC0C7A /* CollectionViewAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				5DC26B14245DECDD00DC0C7A /* cell */,
+				5DC26B1B245DEDDB00DC0C7A /* FourCollectionViewAdapter.swift */,
+			);
+			path = CollectionViewAdapter;
+			sourceTree = "<group>";
+		};
+		5DC26B14245DECDD00DC0C7A /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				5DC26B17245DED0A00DC0C7A /* FourCell.swift */,
+				5DC26B18245DED0A00DC0C7A /* FourCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		5DC26B1D245DEFD800DC0C7A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5DC26B1E245DEFF000DC0C7A /* FourViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		E19CB729BABF8B6AF5DFC563 /* Frameworks */ = {
@@ -390,6 +508,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC26B01245DE4E300DC0C7A /* ScreenThreeController.xib in Resources */,
+				5DC26B1A245DED0A00DC0C7A /* FourCell.xib in Resources */,
+				5DC26B12245DECAB00DC0C7A /* ScreenFourController.xib in Resources */,
+				5DC26B07245DE58E00DC0C7A /* ThreeCell.xib in Resources */,
 				5DC26AB6245DBC7900DC0C7A /* LaunchScreen.storyboard in Resources */,
 				5DC26AB3245DBC7900DC0C7A /* Assets.xcassets in Resources */,
 				5DC26AFB245DDFE600DC0C7A /* ScreenTwoController.xib in Resources */,
@@ -523,16 +645,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DC26AAE245DBC7300DC0C7A /* ViewController.swift in Sources */,
+				5DC26B11245DECAB00DC0C7A /* ScreenFourController.swift in Sources */,
+				5DC26B1C245DEDDB00DC0C7A /* FourCollectionViewAdapter.swift in Sources */,
+				5DC26B1F245DEFF000DC0C7A /* FourViewModel.swift in Sources */,
 				5DC26AF0245DDAF400DC0C7A /* ScreenOneController.swift in Sources */,
+				5DC26B00245DE4E300DC0C7A /* ScreenThreeController.swift in Sources */,
 				5DC26AAA245DBC7300DC0C7A /* AppDelegate.swift in Sources */,
 				5DC26AEC245DD98B00DC0C7A /* ModelScreenThree.swift in Sources */,
+				5DC26B0E245DEBA900DC0C7A /* ModelScreenFour.swift in Sources */,
 				5DC26AE5245DCC6E00DC0C7A /* UIViewExt.swift in Sources */,
+				5DC26B25245DF39400DC0C7A /* UICollectionViewExt.swift in Sources */,
+				5DC26B06245DE58E00DC0C7A /* ThreeCell.swift in Sources */,
+				5DC26B21245DF01A00DC0C7A /* ApiError.swift in Sources */,
+				5DC26B0B245DE96000DC0C7A /* NsObjectExtension.swift in Sources */,
+				5DC26B29245E049200DC0C7A /* StringExt.swift in Sources */,
 				5DC26AF3245DDB1200DC0C7A /* BaseViewController.swift in Sources */,
+				5DC26B19245DED0A00DC0C7A /* FourCell.swift in Sources */,
+				5DC26B09245DE7C400DC0C7A /* TableViewAdapter.swift in Sources */,
 				5DC26AE0245DC2BE00DC0C7A /* NetworkService.swift in Sources */,
 				5DC26AE7245DCD0A00DC0C7A /* UIImageViewExt.swift in Sources */,
 				5DC26AE9245DD34100DC0C7A /* UIViewControllerExt.swift in Sources */,
 				5DC26AE3245DC8BF00DC0C7A /* AppConstants.swift in Sources */,
 				5DC26AFA245DDFE600DC0C7A /* ScreenTwoController.swift in Sources */,
+				5DC26B27245E037500DC0C7A /* Prefs.swift in Sources */,
+				5DC26B23245DF38400DC0C7A /* UITableViewExt.swift in Sources */,
 				5DC26AF6245DDC4A00DC0C7A /* KeyboardCompatibleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

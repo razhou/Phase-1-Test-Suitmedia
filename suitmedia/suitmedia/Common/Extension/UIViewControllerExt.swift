@@ -114,6 +114,7 @@ extension UIViewController {
         case .hideNavBar:
             navigationController?.setNavigationBarHidden(true, animated: true)
         case .hideBackButton(let title):
+            navigationController?.setNavigationBarHidden(false, animated: true)
             addTitleHeader(title: title)
             hideBackButton()
         }

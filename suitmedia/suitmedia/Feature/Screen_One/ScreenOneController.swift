@@ -23,9 +23,23 @@ class ScreenOneController: KeyboardCompatibleViewController {
         self.setNavigationBarType(.hideNavBar)
     }
 
-
     @IBAction func btncClickNext(_ sender: Any) {
+        let vc = ScreenTwoController.init(nibName: ScreenTwoController.stringRepresentation, bundle: nil)
         
+        Prefs.setData(Keys.three, value: "Choose Event")
+        Prefs.setData(Keys.four, value: "Choose Guest")
+        
+        let name = tfName.text
+        
+        if name?.count ?? 0 > 0 && !(name?.isEmpty ?? false) {
+            vc.name = name ?? "No Name"
+             self.pushController(vc, animated: true)
+        }else{
+            self.showAlertMessage(vc: self, withTitle: "Information", message: "Name is invalid", isOk: {
+                
+            }, isCancel: nil)
+        }
+       
         
     }
     

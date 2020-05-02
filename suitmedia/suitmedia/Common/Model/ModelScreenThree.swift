@@ -8,9 +8,10 @@
 
 import Foundation
 
-struct ModelThree {
+struct ModelScreenThree {
     static let id : [Int] = [1,2,3,4]
-    static let name: [String] = ["John, Laura, Steven, Maria"]
+    static let name: [String] = ["Dummy Event 1", "Dummy Event 2", "Dummy Event 3", "Dummy Event 4"]
     static let date: [String] = ["02 April 2020","03 April 2020","04 April 2020","05 April 2020"]
     static let image: [String] = ["img_one","img_two","img_three","img_four"]
 }
+

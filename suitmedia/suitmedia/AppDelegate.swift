@@ -16,15 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//           
+//        let screen = ScreenOneController.init(nibName: "ScreenOneController", bundle: nil)
+//        window?.rootViewController = screen
+//        window?.makeKeyAndVisible()
         return true
     }
 
 
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-    }
     
     /**
      This function set the view controller become a root of application
