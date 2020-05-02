@@ -17,6 +17,9 @@
 		5DC26ACC245DBC7900DC0C7A /* suitmediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26ACB245DBC7900DC0C7A /* suitmediaUITests.swift */; };
 		5DC26AE0245DC2BE00DC0C7A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26ADF245DC2BE00DC0C7A /* NetworkService.swift */; };
 		5DC26AE3245DC8BF00DC0C7A /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AE2245DC8BF00DC0C7A /* AppConstants.swift */; };
+		5DC26AE5245DCC6E00DC0C7A /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AE4245DCC6E00DC0C7A /* UIViewExt.swift */; };
+		5DC26AE7245DCD0A00DC0C7A /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AE6245DCD0A00DC0C7A /* UIImageViewExt.swift */; };
+		5DC26AE9245DD34100DC0C7A /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC26AE8245DD34100DC0C7A /* UIViewControllerExt.swift */; };
 		779188162F9FACEB5C705AD6 /* Pods_suitmedia_suitmediaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C83C5B2B2D0471285DC196 /* Pods_suitmedia_suitmediaUITests.framework */; };
 		A43CD1C03BF85C5DB0AEC3EF /* Pods_suitmedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D11F4BB20C14807FCDACAA4 /* Pods_suitmedia.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +61,9 @@
 		5DC26ACD245DBC7900DC0C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DC26ADF245DC2BE00DC0C7A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		5DC26AE2245DC8BF00DC0C7A /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		5DC26AE4245DCC6E00DC0C7A /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		5DC26AE6245DCD0A00DC0C7A /* UIImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
+		5DC26AE8245DD34100DC0C7A /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		90DEE7357E325D621FCAF682 /* Pods-suitmedia-suitmediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suitmedia-suitmediaUITests.debug.xcconfig"; path = "Target Support Files/Pods-suitmedia-suitmediaUITests/Pods-suitmedia-suitmediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD443485E3E84AD5F9118B20 /* Pods-suitmedia-suitmediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suitmedia-suitmediaUITests.release.xcconfig"; path = "Target Support Files/Pods-suitmedia-suitmediaUITests/Pods-suitmedia-suitmediaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C30385C002698F05CFFF12FD /* Pods-suitmediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suitmediaTests.release.xcconfig"; path = "Target Support Files/Pods-suitmediaTests/Pods-suitmediaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +188,9 @@
 		5DC26ADB245DBE3200DC0C7A /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5DC26AE4245DCC6E00DC0C7A /* UIViewExt.swift */,
+				5DC26AE6245DCD0A00DC0C7A /* UIImageViewExt.swift */,
+				5DC26AE8245DD34100DC0C7A /* UIViewControllerExt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -460,7 +469,10 @@
 			files = (
 				5DC26AAE245DBC7300DC0C7A /* ViewController.swift in Sources */,
 				5DC26AAA245DBC7300DC0C7A /* AppDelegate.swift in Sources */,
+				5DC26AE5245DCC6E00DC0C7A /* UIViewExt.swift in Sources */,
 				5DC26AE0245DC2BE00DC0C7A /* NetworkService.swift in Sources */,
+				5DC26AE7245DCD0A00DC0C7A /* UIImageViewExt.swift in Sources */,
+				5DC26AE9245DD34100DC0C7A /* UIViewControllerExt.swift in Sources */,
 				5DC26AE3245DC8BF00DC0C7A /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
